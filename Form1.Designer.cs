@@ -33,6 +33,15 @@
             panel2 = new Panel();
             label1 = new Label();
             panel3 = new Panel();
+            showCard10 = new Button();
+            showCard9 = new Button();
+            showCard8 = new Button();
+            showCard7 = new Button();
+            showCard6 = new Button();
+            showCard5 = new Button();
+            showCard4 = new Button();
+            showCard3 = new Button();
+            showCard2 = new Button();
             showCard1 = new Button();
             panel4 = new Panel();
             panel1.SuspendLayout();
@@ -86,6 +95,15 @@
             // panel3
             // 
             panel3.BackColor = Color.Gainsboro;
+            panel3.Controls.Add(showCard10);
+            panel3.Controls.Add(showCard9);
+            panel3.Controls.Add(showCard8);
+            panel3.Controls.Add(showCard7);
+            panel3.Controls.Add(showCard6);
+            panel3.Controls.Add(showCard5);
+            panel3.Controls.Add(showCard4);
+            panel3.Controls.Add(showCard3);
+            panel3.Controls.Add(showCard2);
             panel3.Controls.Add(showCard1);
             panel3.Dock = DockStyle.Left;
             panel3.Location = new Point(0, 60);
@@ -93,18 +111,125 @@
             panel3.Size = new Size(263, 521);
             panel3.TabIndex = 2;
             // 
+            // showCard10
+            // 
+            showCard10.BackColor = Color.Moccasin;
+            showCard10.FlatStyle = FlatStyle.System;
+            showCard10.ForeColor = SystemColors.ActiveCaptionText;
+            showCard10.Location = new Point(10, 457);
+            showCard10.Name = "showCard10";
+            showCard10.Size = new Size(242, 42);
+            showCard10.TabIndex = 12;
+            showCard10.Text = "Zion Williamson";
+            showCard10.UseVisualStyleBackColor = false;
+            // 
+            // showCard9
+            // 
+            showCard9.BackColor = Color.Moccasin;
+            showCard9.FlatStyle = FlatStyle.System;
+            showCard9.ForeColor = SystemColors.ActiveCaptionText;
+            showCard9.Location = new Point(10, 409);
+            showCard9.Name = "showCard9";
+            showCard9.Size = new Size(242, 42);
+            showCard9.TabIndex = 11;
+            showCard9.Text = "Kevin Durant";
+            showCard9.UseVisualStyleBackColor = false;
+            // 
+            // showCard8
+            // 
+            showCard8.BackColor = Color.Moccasin;
+            showCard8.FlatStyle = FlatStyle.System;
+            showCard8.ForeColor = SystemColors.ActiveCaptionText;
+            showCard8.Location = new Point(10, 361);
+            showCard8.Name = "showCard8";
+            showCard8.Size = new Size(242, 42);
+            showCard8.TabIndex = 10;
+            showCard8.Text = "Nikola Jokić";
+            showCard8.UseVisualStyleBackColor = false;
+            // 
+            // showCard7
+            // 
+            showCard7.BackColor = Color.Moccasin;
+            showCard7.FlatStyle = FlatStyle.System;
+            showCard7.ForeColor = SystemColors.ActiveCaptionText;
+            showCard7.Location = new Point(10, 313);
+            showCard7.Name = "showCard7";
+            showCard7.Size = new Size(242, 42);
+            showCard7.TabIndex = 9;
+            showCard7.Text = "Kawhi Leonard";
+            showCard7.UseVisualStyleBackColor = false;
+            // 
+            // showCard6
+            // 
+            showCard6.BackColor = Color.Moccasin;
+            showCard6.FlatStyle = FlatStyle.System;
+            showCard6.ForeColor = SystemColors.ActiveCaptionText;
+            showCard6.Location = new Point(10, 265);
+            showCard6.Name = "showCard6";
+            showCard6.Size = new Size(242, 42);
+            showCard6.TabIndex = 8;
+            showCard6.Text = "Giannis Antetokounmpo";
+            showCard6.UseVisualStyleBackColor = false;
+            // 
+            // showCard5
+            // 
+            showCard5.BackColor = Color.Moccasin;
+            showCard5.FlatStyle = FlatStyle.System;
+            showCard5.ForeColor = SystemColors.ActiveCaptionText;
+            showCard5.Location = new Point(10, 217);
+            showCard5.Name = "showCard5";
+            showCard5.Size = new Size(242, 42);
+            showCard5.TabIndex = 7;
+            showCard5.Text = "Michael Jordan";
+            showCard5.UseVisualStyleBackColor = false;
+            // 
+            // showCard4
+            // 
+            showCard4.BackColor = Color.Moccasin;
+            showCard4.FlatStyle = FlatStyle.System;
+            showCard4.ForeColor = SystemColors.ActiveCaptionText;
+            showCard4.Location = new Point(10, 169);
+            showCard4.Name = "showCard4";
+            showCard4.Size = new Size(242, 42);
+            showCard4.TabIndex = 6;
+            showCard4.Text = "Stephen Curry";
+            showCard4.UseVisualStyleBackColor = false;
+            // 
+            // showCard3
+            // 
+            showCard3.BackColor = Color.Moccasin;
+            showCard3.FlatStyle = FlatStyle.System;
+            showCard3.ForeColor = SystemColors.ActiveCaptionText;
+            showCard3.Location = new Point(10, 121);
+            showCard3.Name = "showCard3";
+            showCard3.Size = new Size(242, 42);
+            showCard3.TabIndex = 5;
+            showCard3.Text = "Luka Dončić";
+            showCard3.UseVisualStyleBackColor = false;
+            // 
+            // showCard2
+            // 
+            showCard2.BackColor = Color.Moccasin;
+            showCard2.FlatStyle = FlatStyle.System;
+            showCard2.ForeColor = SystemColors.ActiveCaptionText;
+            showCard2.Location = new Point(10, 73);
+            showCard2.Name = "showCard2";
+            showCard2.Size = new Size(242, 42);
+            showCard2.TabIndex = 4;
+            showCard2.Text = "LeBron James";
+            showCard2.UseVisualStyleBackColor = false;
+            // 
             // showCard1
             // 
             showCard1.BackColor = Color.Moccasin;
             showCard1.FlatStyle = FlatStyle.System;
             showCard1.ForeColor = SystemColors.ActiveCaptionText;
-            showCard1.Location = new Point(12, 6);
+            showCard1.Location = new Point(10, 25);
             showCard1.Name = "showCard1";
             showCard1.Size = new Size(242, 42);
             showCard1.TabIndex = 3;
             showCard1.Text = "Kobe Bryant";
             showCard1.UseVisualStyleBackColor = false;
-            showCard1.Click += showCard1_Click;
             // 
             // panel4
             // 
@@ -123,7 +248,7 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.None;
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "cardTray";
             StartPosition = FormStartPosition.CenterScreen;
@@ -145,5 +270,14 @@
         private Panel panel3;
         private Button showCard1;
         private Panel panel4;
+        private Button showCard4;
+        private Button showCard3;
+        private Button showCard2;
+        private Button showCard10;
+        private Button showCard9;
+        private Button showCard8;
+        private Button showCard7;
+        private Button showCard6;
+        private Button showCard5;
     }
 }
